@@ -22,3 +22,7 @@ else:
     print("Classificação: Obesidade")
 #agregando uma mensagem final
 print("Obrigado por usar a calculadora de IMC!")
+#Fim do programa
+#adicionar um comentário para o git commit
+#git commit -m “início do projeto de cálculo de massa corporal"
+#fim    
