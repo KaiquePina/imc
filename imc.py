@@ -20,9 +20,14 @@ elif 25 <= imc < 29.9:
     print("Classificação: Sobrepeso")
 else:
     print("Classificação: Obesidade")
-#agregando uma mensagem final
+if imc >= 30 and imc < 35:
+    print("Classificação: Obesidade grau 1")
+elif imc >= 35 and imc < 40:
+    print("Classificação: Obesidade grau 2")
+elif imc >= 40:
+    print("Classificação: Obesidade grau 3")
 print("Obrigado por usar a calculadora de IMC!")
 #Fim do programa
 #adicionar um comentário para o git commit
 #git commit -m “início do projeto de cálculo de massa corporal"
-#fim    
+#fim  
